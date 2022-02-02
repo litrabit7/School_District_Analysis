@@ -1,10 +1,8 @@
 # School_District_Analysis
 
-Here is the list of deliverables for the analysis of the school district: 
+## Overview
+The analysis of the school district: 
 
-- A high-level snapshot of the district's key metrics, presented in a table format
-- An overview of the key metrics for each school, presented in a table format
-- Tables presenting each of the following metrics:
     - Top 5 and bottom 5 performing schools, based on the overall passing rate
     - The average math score received by students in each grade level at each school
     - The average reading score received by students in each grade level at each school
@@ -12,13 +10,37 @@ Here is the list of deliverables for the analysis of the school district:
     - School performance based on the school size 
     - School performance based on the type of school
 
-- The school district summary will be a high-level snapshot of the district's key metrics:
+## Result
 
-    - Total number of students
-    - Total number of schools
-    - Total budget
-    - Average math score
-    - Average reading score
-    - Percentage of students who passed math
-    - Percentage of students who passed reading
-    - Overall passing percentage
+### Top 5 perfoming schools
+![top_5.png](Resources/top_5.png)  
+
+### bottom 5 perfoming schools
+![bottom_5.png](Resources/bottom_5.png)  
+
+### average math grade by grade
+![score_grade_math.png](Resources/score_grade_math.png)  
+
+### average reading grade by grade
+![score_grade-read.png](Resources/score_grade-read.png)  
+
+### School performance based on the budget per student & Summary
+![score_school_spend.png](Resources/score_school_spend.png)  
+#####    Summary
+![score_school_spend_summary.png](Resources/score_school_spend_summary.png)  
+
+
+
+### School performance based on School size
+![score_school_size.png](Resources/score_school_size.png)  
+#####    Summary
+![score_school_size_summary.png](Resources/score_school_size_summary.png)  
+
+
+### School performance based on School type
+![score_school_type_summary.png](Resources/score_school_type_summary.png)  
+
+
+## Summary
+
+By replacing the ninth grader scores with NaN for Thomas High School, the overall passing percentages and averge scores increased. Through this practice, we can see how the analysis will change based on the data set sellection. It is important to understand how including and excluding the data will change the result and seeking for best suitable solutions. 
